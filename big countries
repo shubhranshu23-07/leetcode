@@ -1,0 +1,4 @@
+/* Write your PL/SQL query statement below */
+select w.name,w.population,w.area from world w
+where w.area > 3*power(10,6)
+or w.population > 25*power(10,6)
